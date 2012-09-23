@@ -1,0 +1,33 @@
+/*
+*	jQuery plugin: jCrystalMarquee
+*	http://www.crystalsoft.it/
+*
+*	Written by:		Dario Cancelliere
+*	Company:		CrystalSoft
+*	Site:			http://www.crystalsoft.it/
+*
+*	Licensed under the GNU GPL license.
+*	http://www.gnu.org/licenses/gpl.txt
+*/
+
+.marquee
+{
+	width: 800px;
+	height: 400px;
+
+	margin: 0 auto;
+
+	overflow: hidden; 
+
+	position: relative;
+}
+
+.marquee .marquee-child
+{
+	overflow: hidden;
+
+	position: absolute;
+
+	top: 0;
+	left: 0;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="author" content="CrystalSoft"/>
+		<meta name="copyright" content="Copyright 2012 - CrystalSoft"/>
+
+		<link href="../css/jquery.jcrystalmarquee.css" rel="stylesheet" type="text/css"/>
+
+		<script src="../js/jquery.js" type="text/javascript"></script>
+		<script src="../js/jquery.crystalmarquee.min.js" type="text/javascript"></script>
+		<script src="../js/jquery.pause-resume-animation.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			$(window).load(function()
+			{
+				$("#marquee").marquee({duration: 5000, sense: "right", easeMode: "linear", pause: true, delay: 0, endDelay: 0});
+			});
+		</script>
+	</head>
+	<body>
+		<center><strong>Simple jCrystalMarquee example</strong></center>
+		<br/>
+		<div class="marquee" id="marquee">
+			<img src="img/panoramic.jpg" alt=""/>
+		</div>
+		<br/>
+		<center><strong><a href="http://www.crystalsoft.it/">by CrystalSoft</a></strong></center>
+	</body>
+</html>
+<!--Copyright (C) 2012 CrystalSoft-->
+<!--by Dario Cancelliere-->
+<!--http://www.crystalsoft.it/-->
